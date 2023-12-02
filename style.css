@@ -1,0 +1,33 @@
+.outer
+{
+    height: 750px;
+    width: 750px;
+    border: 2px solid rgb(0, 152, 129);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+.inner
+{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-size: 100px;
+    box-shadow: 4px 8px 10px black;
+    transition: 90ms;
+}
+
+.inner:hover
+{
+    box-shadow: 8px 16px 20px black;
+}
+
